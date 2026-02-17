@@ -27,7 +27,7 @@ function App() {
 	return (
 		<div className="relative h-screen w-screen">
 			<FractalTree
-				primaryColor={'rgba(200,200,200, 1)'}
+				primaryColor={'rgb(169, 169, 169)'}
 				maxDepth={30}
 				branchLength={6}
 				branchProbability={0.5}

@@ -166,7 +166,7 @@ const FractalTree = ({
 		};
 	}, [primaryColor, maxDepth, branchLength, branchProbability, growthSpeed]);
 
-	const mask = "radial-gradient(circle, transparent 20%, #000 100%)";
+	const mask = "radial-gradient(circle, transparent 1%, #000 100%)";
 
 	return (
 		<canvas
